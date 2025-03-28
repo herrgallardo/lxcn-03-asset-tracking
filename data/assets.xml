@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Assets>
+  <!-- Computers -->
+  <Asset Type="Computer">
+    <SerialNumber>COMP-DELL-001</SerialNumber>
+    <Brand>Dell</Brand>
+    <Model>XPS 15</Model>
+    <PurchaseDate>2022-05-15</PurchaseDate>
+    <Price>1299.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-DELL-002</SerialNumber>
+    <Brand>Dell</Brand>
+    <Model>Latitude 5420</Model>
+    <PurchaseDate>2022-03-20</PurchaseDate>
+    <Price>989.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-DELL-003</SerialNumber>
+    <Brand>Dell</Brand>
+    <Model>Precision 5560</Model>
+    <PurchaseDate>2022-01-12</PurchaseDate>
+    <Price>1599.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-HP-001</SerialNumber>
+    <Brand>HP</Brand>
+    <Model>EliteBook 840</Model>
+    <PurchaseDate>2022-04-05</PurchaseDate>
+    <Price>1249.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-HP-002</SerialNumber>
+    <Brand>HP</Brand>
+    <Model>ProBook 450</Model>
+    <PurchaseDate>2022-02-10</PurchaseDate>
+    <Price>879.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-HP-003</SerialNumber>
+    <Brand>HP</Brand>
+    <Model>Spectre x360</Model>
+    <PurchaseDate>2022-06-18</PurchaseDate>
+    <Price>1399.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-LENOVO-001</SerialNumber>
+    <Brand>Lenovo</Brand>
+    <Model>ThinkPad X1</Model>
+    <PurchaseDate>2021-12-03</PurchaseDate>
+    <Price>1499.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-LENOVO-002</SerialNumber>
+    <Brand>Lenovo</Brand>
+    <Model>ThinkPad T14</Model>
+    <PurchaseDate>2021-11-15</PurchaseDate>
+    <Price>1199.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-LENOVO-003</SerialNumber>
+    <Brand>Lenovo</Brand>
+    <Model>Yoga 9i</Model>
+    <PurchaseDate>2022-01-28</PurchaseDate>
+    <Price>1349.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-APPLE-001</SerialNumber>
+    <Brand>Apple</Brand>
+    <Model>MacBook Pro 13</Model>
+    <PurchaseDate>2022-03-10</PurchaseDate>
+    <Price>1299.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-APPLE-002</SerialNumber>
+    <Brand>Apple</Brand>
+    <Model>MacBook Air</Model>
+    <PurchaseDate>2022-05-22</PurchaseDate>
+    <Price>999.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-APPLE-003</SerialNumber>
+    <Brand>Apple</Brand>
+    <Model>MacBook Pro 16</Model>
+    <PurchaseDate>2021-09-30</PurchaseDate>
+    <Price>2399.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-MS-001</SerialNumber>
+    <Brand>Microsoft</Brand>
+    <Model>Surface Laptop 4</Model>
+    <PurchaseDate>2022-02-14</PurchaseDate>
+    <Price>1299.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-MS-002</SerialNumber>
+    <Brand>Microsoft</Brand>
+    <Model>Surface Pro 8</Model>
+    <PurchaseDate>2022-04-18</PurchaseDate>
+    <Price>1099.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-MS-003</SerialNumber>
+    <Brand>Microsoft</Brand>
+    <Model>Surface Book 3</Model>
+    <PurchaseDate>2021-08-20</PurchaseDate>
+    <Price>1599.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-ASUS-001</SerialNumber>
+    <Brand>Asus</Brand>
+    <Model>ZenBook 14</Model>
+    <PurchaseDate>2022-01-05</PurchaseDate>
+    <Price>899.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-ASUS-002</SerialNumber>
+    <Brand>Asus</Brand>
+    <Model>ROG Zephyrus</Model>
+    <PurchaseDate>2021-10-12</PurchaseDate>
+    <Price>1799.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-ASUS-003</SerialNumber>
+    <Brand>Asus</Brand>
+    <Model>VivoBook S15</Model>
+    <PurchaseDate>2022-03-25</PurchaseDate>
+    <Price>749.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-ACER-001</SerialNumber>
+    <Brand>Acer</Brand>
+    <Model>Aspire 5</Model>
+    <PurchaseDate>2022-05-03</PurchaseDate>
+    <Price>649.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-ACER-002</SerialNumber>
+    <Brand>Acer</Brand>
+    <Model>Swift 3</Model>
+    <PurchaseDate>2022-02-20</PurchaseDate>
+    <Price>749.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-ACER-003</SerialNumber>
+    <Brand>Acer</Brand>
+    <Model>Predator Helios</Model>
+    <PurchaseDate>2021-11-05</PurchaseDate>
+    <Price>1499.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-DELL-004</SerialNumber>
+    <Brand>Dell</Brand>
+    <Model>Inspiron 15</Model>
+    <PurchaseDate>2022-06-10</PurchaseDate>
+    <Price>699.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-DELL-005</SerialNumber>
+    <Brand>Dell</Brand>
+    <Model>Alienware m15</Model>
+    <PurchaseDate>2021-07-18</PurchaseDate>
+    <Price>1999.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-HP-004</SerialNumber>
+    <Brand>HP</Brand>
+    <Model>Pavilion 15</Model>
+    <PurchaseDate>2022-04-28</PurchaseDate>
+    <Price>699.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-HP-005</SerialNumber>
+    <Brand>HP</Brand>
+    <Model>Omen 15</Model>
+    <PurchaseDate>2021-08-14</PurchaseDate>
+    <Price>1299.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-LENOVO-004</SerialNumber>
+    <Brand>Lenovo</Brand>
+    <Model>Legion 5</Model>
+    <PurchaseDate>2021-09-22</PurchaseDate>
+    <Price>1199.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-LENOVO-005</SerialNumber>
+    <Brand>Lenovo</Brand>
+    <Model>IdeaPad 5</Model>
+    <PurchaseDate>2022-05-30</PurchaseDate>
+    <Price>649.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-APPLE-004</SerialNumber>
+    <Brand>Apple</Brand>
+    <Model>iMac 24</Model>
+    <PurchaseDate>2022-01-15</PurchaseDate>
+    <Price>1499.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-APPLE-005</SerialNumber>
+    <Brand>Apple</Brand>
+    <Model>Mac mini</Model>
+    <PurchaseDate>2022-03-05</PurchaseDate>
+    <Price>699.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-MS-004</SerialNumber>
+    <Brand>Microsoft</Brand>
+    <Model>Surface Studio</Model>
+    <PurchaseDate>2021-06-25</PurchaseDate>
+    <Price>3499.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-DELL-006</SerialNumber>
+    <Brand>Dell</Brand>
+    <Model>OptiPlex 7080</Model>
+    <PurchaseDate>2021-12-18</PurchaseDate>
+    <Price>999.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-HP-006</SerialNumber>
+    <Brand>HP</Brand>
+    <Model>Z2 Tower</Model>
+    <PurchaseDate>2021-10-30</PurchaseDate>
+    <Price>1299.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-LENOVO-006</SerialNumber>
+    <Brand>Lenovo</Brand>
+    <Model>ThinkCentre M70</Model>
+    <PurchaseDate>2022-02-28</PurchaseDate>
+    <Price>849.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-ASUS-004</SerialNumber>
+    <Brand>Asus</Brand>
+    <Model>ProArt PA90</Model>
+    <PurchaseDate>2021-07-05</PurchaseDate>
+    <Price>1899.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-APPLE-006</SerialNumber>
+    <Brand>Apple</Brand>
+    <Model>Mac Pro</Model>
+    <PurchaseDate>2020-09-12</PurchaseDate>
+    <Price>5999.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-DELL-007</SerialNumber>
+    <Brand>Dell</Brand>
+    <Model>XPS Desktop</Model>
+    <PurchaseDate>2021-11-28</PurchaseDate>
+    <Price>1399.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-HP-007</SerialNumber>
+    <Brand>HP</Brand>
+    <Model>ENVY Desktop</Model>
+    <PurchaseDate>2022-01-22</PurchaseDate>
+    <Price>1099.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-DELL-008</SerialNumber>
+    <Brand>Dell</Brand>
+    <Model>Vostro 3681</Model>
+    <PurchaseDate>2022-04-15</PurchaseDate>
+    <Price>699.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-LENOVO-007</SerialNumber>
+    <Brand>Lenovo</Brand>
+    <Model>IdeaCentre 5</Model>
+    <PurchaseDate>2022-03-18</PurchaseDate>
+    <Price>749.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-MS-005</SerialNumber>
+    <Brand>Microsoft</Brand>
+    <Model>Surface Laptop Go</Model>
+    <PurchaseDate>2022-05-10</PurchaseDate>
+    <Price>699.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-ASUS-005</SerialNumber>
+    <Brand>Asus</Brand>
+    <Model>ExpertBook B9</Model>
+    <PurchaseDate>2021-12-10</PurchaseDate>
+    <Price>1299.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-HP-008</SerialNumber>
+    <Brand>HP</Brand>
+    <Model>ZBook Fury</Model>
+    <PurchaseDate>2021-10-05</PurchaseDate>
+    <Price>1899.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-LENOVO-008</SerialNumber>
+    <Brand>Lenovo</Brand>
+    <Model>ThinkPad P15</Model>
+    <PurchaseDate>2021-08-28</PurchaseDate>
+    <Price>1799.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-DELL-009</SerialNumber>
+    <Brand>Dell</Brand>
+    <Model>Precision 7760</Model>
+    <PurchaseDate>2021-09-15</PurchaseDate>
+    <Price>2199.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-APPLE-007</SerialNumber>
+    <Brand>Apple</Brand>
+    <Model>Mac Studio</Model>
+    <PurchaseDate>2022-03-08</PurchaseDate>
+    <Price>1999.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-ASUS-006</SerialNumber>
+    <Brand>Asus</Brand>
+    <Model>TUF Gaming A15</Model>
+    <PurchaseDate>2022-01-30</PurchaseDate>
+    <Price>999.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-ACER-004</SerialNumber>
+    <Brand>Acer</Brand>
+    <Model>Nitro 5</Model>
+    <PurchaseDate>2022-02-05</PurchaseDate>
+    <Price>899.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-MSI-001</SerialNumber>
+    <Brand>MSI</Brand>
+    <Model>GS66 Stealth</Model>
+    <PurchaseDate>2021-11-20</PurchaseDate>
+    <Price>1799.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-RAZER-001</SerialNumber>
+    <Brand>Razer</Brand>
+    <Model>Blade 15</Model>
+    <PurchaseDate>2021-10-18</PurchaseDate>
+    <Price>1999.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Computer">
+    <SerialNumber>COMP-DELL-010</SerialNumber>
+    <Brand>Dell</Brand>
+    <Model>G15</Model>
+    <PurchaseDate>2022-04-22</PurchaseDate>
+    <Price>1099.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  
+  <!-- Phones -->
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-APPLE-001</SerialNumber>
+    <Brand>Apple</Brand>
+    <Model>iPhone 13 Pro</Model>
+    <PurchaseDate>2022-01-05</PurchaseDate>
+    <Price>999.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-APPLE-002</SerialNumber>
+    <Brand>Apple</Brand>
+    <Model>iPhone 13</Model>
+    <PurchaseDate>2022-02-10</PurchaseDate>
+    <Price>799.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-APPLE-003</SerialNumber>
+    <Brand>Apple</Brand>
+    <Model>iPhone 12</Model>
+    <PurchaseDate>2021-05-20</PurchaseDate>
+    <Price>699.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-APPLE-004</SerialNumber>
+    <Brand>Apple</Brand>
+    <Model>iPhone SE</Model>
+    <PurchaseDate>2022-03-15</PurchaseDate>
+    <Price>429.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-SAMSUNG-001</SerialNumber>
+    <Brand>Samsung</Brand>
+    <Model>Galaxy S22 Ultra</Model>
+    <PurchaseDate>2022-02-25</PurchaseDate>
+    <Price>1199.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-SAMSUNG-002</SerialNumber>
+    <Brand>Samsung</Brand>
+    <Model>Galaxy S22</Model>
+    <PurchaseDate>2022-03-10</PurchaseDate>
+    <Price>799.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-SAMSUNG-003</SerialNumber>
+    <Brand>Samsung</Brand>
+    <Model>Galaxy S21</Model>
+    <PurchaseDate>2021-06-15</PurchaseDate>
+    <Price>699.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-SAMSUNG-004</SerialNumber>
+    <Brand>Samsung</Brand>
+    <Model>Galaxy A52</Model>
+    <PurchaseDate>2021-08-20</PurchaseDate>
+    <Price>399.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-GOOGLE-001</SerialNumber>
+    <Brand>Google</Brand>
+    <Model>Pixel 6 Pro</Model>
+    <PurchaseDate>2021-11-28</PurchaseDate>
+    <Price>899.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-GOOGLE-002</SerialNumber>
+    <Brand>Google</Brand>
+    <Model>Pixel 6</Model>
+    <PurchaseDate>2021-12-15</PurchaseDate>
+    <Price>599.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-GOOGLE-003</SerialNumber>
+    <Brand>Google</Brand>
+    <Model>Pixel 5a</Model>
+    <PurchaseDate>2021-09-10</PurchaseDate>
+    <Price>449.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-XIAOMI-001</SerialNumber>
+    <Brand>Xiaomi</Brand>
+    <Model>Mi 11</Model>
+    <PurchaseDate>2021-07-05</PurchaseDate>
+    <Price>749.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-XIAOMI-002</SerialNumber>
+    <Brand>Xiaomi</Brand>
+    <Model>Redmi Note 10 Pro</Model>
+    <PurchaseDate>2021-10-18</PurchaseDate>
+    <Price>299.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-XIAOMI-003</SerialNumber>
+    <Brand>Xiaomi</Brand>
+    <Model>Poco F3</Model>
+    <PurchaseDate>2022-01-12</PurchaseDate>
+    <Price>349.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-ONEPLUS-001</SerialNumber>
+    <Brand>OnePlus</Brand>
+    <Model>10 Pro</Model>
+    <PurchaseDate>2022-03-05</PurchaseDate>
+    <Price>899.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-ONEPLUS-002</SerialNumber>
+    <Brand>OnePlus</Brand>
+    <Model>9 Pro</Model>
+    <PurchaseDate>2021-08-12</PurchaseDate>
+    <Price>799.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-ONEPLUS-003</SerialNumber>
+    <Brand>OnePlus</Brand>
+    <Model>Nord 2</Model>
+    <PurchaseDate>2021-11-05</PurchaseDate>
+    <Price>399.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-SONY-001</SerialNumber>
+    <Brand>Sony</Brand>
+    <Model>Xperia 1 III</Model>
+    <PurchaseDate>2021-09-22</PurchaseDate>
+    <Price>1299.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-SONY-002</SerialNumber>
+    <Brand>Sony</Brand>
+    <Model>Xperia 5 III</Model>
+    <PurchaseDate>2021-12-08</PurchaseDate>
+    <Price>999.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-SONY-003</SerialNumber>
+    <Brand>Sony</Brand>
+    <Model>Xperia 10 III</Model>
+    <PurchaseDate>2022-02-15</PurchaseDate>
+    <Price>449.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-MOTO-001</SerialNumber>
+    <Brand>Motorola</Brand>
+    <Model>Edge 20 Pro</Model>
+    <PurchaseDate>2021-10-25</PurchaseDate>
+    <Price>699.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-MOTO-002</SerialNumber>
+    <Brand>Motorola</Brand>
+    <Model>Moto G Power</Model>
+    <PurchaseDate>2022-01-20</PurchaseDate>
+    <Price>249.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-MOTO-003</SerialNumber>
+    <Brand>Motorola</Brand>
+    <Model>Razr 5G</Model>
+    <PurchaseDate>2021-06-30</PurchaseDate>
+    <Price>999.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-NOKIA-001</SerialNumber>
+    <Brand>Nokia</Brand>
+    <Model>X20</Model>
+    <PurchaseDate>2021-07-15</PurchaseDate>
+    <Price>349.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-NOKIA-002</SerialNumber>
+    <Brand>Nokia</Brand>
+    <Model>G50</Model>
+    <PurchaseDate>2021-11-12</PurchaseDate>
+    <Price>299.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-NOKIA-003</SerialNumber>
+    <Brand>Nokia</Brand>
+    <Model>XR20</Model>
+    <PurchaseDate>2022-02-05</PurchaseDate>
+    <Price>549.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-APPLE-005</SerialNumber>
+    <Brand>Apple</Brand>
+    <Model>iPhone 11</Model>
+    <PurchaseDate>2020-08-10</PurchaseDate>
+    <Price>599.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-APPLE-006</SerialNumber>
+    <Brand>Apple</Brand>
+    <Model>iPhone XR</Model>
+    <PurchaseDate>2020-03-15</PurchaseDate>
+    <Price>499.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-SAMSUNG-005</SerialNumber>
+    <Brand>Samsung</Brand>
+    <Model>Galaxy S20</Model>
+    <PurchaseDate>2020-05-22</PurchaseDate>
+    <Price>799.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-SAMSUNG-006</SerialNumber>
+    <Brand>Samsung</Brand>
+    <Model>Galaxy Note 20</Model>
+    <PurchaseDate>2020-09-18</PurchaseDate>
+    <Price>999.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-GOOGLE-004</SerialNumber>
+    <Brand>Google</Brand>
+    <Model>Pixel 5</Model>
+    <PurchaseDate>2020-11-30</PurchaseDate>
+    <Price>699.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-GOOGLE-005</SerialNumber>
+    <Brand>Google</Brand>
+    <Model>Pixel 4a</Model>
+    <PurchaseDate>2020-10-15</PurchaseDate>
+    <Price>349.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-ONEPLUS-004</SerialNumber>
+    <Brand>OnePlus</Brand>
+    <Model>8 Pro</Model>
+    <PurchaseDate>2020-06-10</PurchaseDate>
+    <Price>899.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-ONEPLUS-005</SerialNumber>
+    <Brand>OnePlus</Brand>
+    <Model>8T</Model>
+    <PurchaseDate>2020-12-05</PurchaseDate>
+    <Price>749.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-XIAOMI-004</SerialNumber>
+    <Brand>Xiaomi</Brand>
+    <Model>Mi 10</Model>
+    <PurchaseDate>2020-07-20</PurchaseDate>
+    <Price>699.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-SONY-004</SerialNumber>
+    <Brand>Sony</Brand>
+    <Model>Xperia 1 II</Model>
+    <PurchaseDate>2020-08-25</PurchaseDate>
+    <Price>1199.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-MOTO-004</SerialNumber>
+    <Brand>Motorola</Brand>
+    <Model>Edge Plus</Model>
+    <PurchaseDate>2020-05-15</PurchaseDate>
+    <Price>999.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-LG-001</SerialNumber>
+    <Brand>LG</Brand>
+    <Model>Velvet</Model>
+    <PurchaseDate>2020-07-10</PurchaseDate>
+    <Price>599.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-LG-002</SerialNumber>
+    <Brand>LG</Brand>
+    <Model>Wing</Model>
+    <PurchaseDate>2020-10-28</PurchaseDate>
+    <Price>999.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-NOKIA-004</SerialNumber>
+    <Brand>Nokia</Brand>
+    <Model>8.3</Model>
+    <PurchaseDate>2020-09-05</PurchaseDate>
+    <Price>699.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-ASUS-001</SerialNumber>
+    <Brand>Asus</Brand>
+    <Model>ROG Phone 3</Model>
+    <PurchaseDate>2020-08-20</PurchaseDate>
+    <Price>999.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-ASUS-002</SerialNumber>
+    <Brand>Asus</Brand>
+    <Model>Zenfone 7 Pro</Model>
+    <PurchaseDate>2020-11-15</PurchaseDate>
+    <Price>749.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-HUAWEI-001</SerialNumber>
+    <Brand>Huawei</Brand>
+    <Model>P40 Pro</Model>
+    <PurchaseDate>2020-04-10</PurchaseDate>
+    <Price>899.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-HUAWEI-002</SerialNumber>
+    <Brand>Huawei</Brand>
+    <Model>Mate 40 Pro</Model>
+    <PurchaseDate>2020-10-22</PurchaseDate>
+    <Price>1199.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-SAMSUNG-007</SerialNumber>
+    <Brand>Samsung</Brand>
+    <Model>Galaxy Z Fold 3</Model>
+    <PurchaseDate>2021-08-27</PurchaseDate>
+    <Price>1799.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-SAMSUNG-008</SerialNumber>
+    <Brand>Samsung</Brand>
+    <Model>Galaxy Z Flip 3</Model>
+    <PurchaseDate>2021-08-27</PurchaseDate>
+    <Price>999.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-APPLE-007</SerialNumber>
+    <Brand>Apple</Brand>
+    <Model>iPhone 13 Mini</Model>
+    <PurchaseDate>2021-09-24</PurchaseDate>
+    <Price>699.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-APPLE-008</SerialNumber>
+    <Brand>Apple</Brand>
+    <Model>iPhone 13 Pro Max</Model>
+    <PurchaseDate>2021-09-24</PurchaseDate>
+    <Price>1099.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-NOTHING-001</SerialNumber>
+    <Brand>Nothing</Brand>
+    <Model>Phone 1</Model>
+    <PurchaseDate>2022-07-12</PurchaseDate>
+    <Price>499.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+  <Asset Type="Phone">
+    <SerialNumber>PHONE-XIAOMI-005</SerialNumber>
+    <Brand>Xiaomi</Brand>
+    <Model>12 Pro</Model>
+    <PurchaseDate>2022-02-15</PurchaseDate>
+    <Price>999.99</Price>
+    <Currency>USD</Currency>
+  </Asset>
+</Assets>
