@@ -128,7 +128,7 @@ namespace AssetTracker
     static class CurrencyConverter
     {
         static private string xmlUrl = "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml";
-        static Envelope envelope = null; // Initialize as null, don't call Update() here
+        static Envelope? envelope = null; // Initialize as null, don't call Update() here
 
         // Check if we have valid exchange rates
         static public bool HasValidRates()
@@ -215,7 +215,12 @@ namespace AssetTracker
 
                 using (xmlReader)
                 {
-                    envelope = (Envelope)(serializer.Deserialize(xmlReader));
+                    var deserializedEnvelope = serializer.Deserialize(xmlReader) as Envelope;
+                    if (deserializedEnvelope == null)
+                    {
+                        throw new InvalidOperationException("Failed to deserialize the XML into an Envelope object.");
+                    }
+                    envelope = deserializedEnvelope;
                 }
 
                 return envelope;
@@ -399,7 +404,11 @@ namespace AssetTracker
 
                 using (FileStream fs = new FileStream(filePath, FileMode.Open))
                 {
-                    AssetCollection assetCollection = serializer.Deserialize(fs) as AssetCollection;
+                    AssetCollection? assetCollection = serializer.Deserialize(fs) as AssetCollection;
+                    if (assetCollection == null)
+                    {
+                        throw new InvalidOperationException("Failed to deserialize the asset collection.");
+                    }
                     if (assetCollection == null)
                     {
                         throw new InvalidOperationException("Failed to deserialize the asset collection.");
@@ -515,8 +524,8 @@ namespace AssetTracker
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Asset Tracking System - Level 3");
-            Console.WriteLine("==============================\n");
+            Console.WriteLine("Asset Tracking System");
+            Console.WriteLine("=====================\n");
 
             try
             {
